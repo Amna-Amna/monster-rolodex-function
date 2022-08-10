@@ -11,7 +11,7 @@ const App = ()=>{
   console.log(searchField)
   
   const onSearchChange =(event) => {
-    // console.log(event.target.value);
+    console.log(event.target.value);
     const searchFieldString = event.target.value.toLocaleLowerCase();
     setSearchField(searchFieldString);
 
